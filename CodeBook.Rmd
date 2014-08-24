@@ -1,0 +1,25 @@
+---
+title: "CodeBook.md"
+output: html_document
+---
+
+
+Variables:
+All measurements are given as the mean of the measurements under each subject for each activity
+```{r}
+source("run_analysis.R")
+sapply(avgData, class)
+summary(avgData)
+```
+
+
+
+
+
+
+
+
+
+
+
+

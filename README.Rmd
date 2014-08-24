@@ -1,0 +1,16 @@
+---
+title: "README"
+output: html_document
+---
+
+The dataset was generated from original data at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+A single script is included that performs all analytic steps.
+
+--------------------
+run_analysis.R
+--------------------
+
+This test and training data was combined into a single dataset, and reshaped to show the MEAN of each measurement dealing with mean or standard deviation within each subject for each activity.
+
+
